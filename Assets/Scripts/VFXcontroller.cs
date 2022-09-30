@@ -10,6 +10,8 @@ public class VFXcontroller : MonoBehaviour
     public GameObject vfx;
     public Transform elbowR;
 
+    private Transform lastLocation;
+
     private void Start()
     {
         velocityCounter.OnMove += Moved;
@@ -26,4 +28,11 @@ public class VFXcontroller : MonoBehaviour
         Debug.Log(velocityCounter.velocity.magnitude);
     }
 
+
+    void MovementDirection()
+    {
+        //if(elbowR.position>= lastLocation.position)
+
+        elbowR = lastLocation;
+    }
 }
