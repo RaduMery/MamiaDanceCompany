@@ -12,6 +12,8 @@ public class VelocityCounter : MonoBehaviour
     public float miniumMovementTolerance;
     public event Action<float> OnMove;
 
+    //public event Action<float> MovementDicertion;
+
     private void Start()
     {
         previousPosition = transform.position;
@@ -22,6 +24,7 @@ public class VelocityCounter : MonoBehaviour
         velocity = transform.position - previousPosition;
         if (velocity.magnitude > miniumMovementTolerance)
         {
+            //MovementDicertion?.Invoke()
             OnMove?.Invoke(velocity.magnitude);
         }
         previousPosition = transform.position;
