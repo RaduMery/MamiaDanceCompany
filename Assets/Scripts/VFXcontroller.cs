@@ -8,30 +8,26 @@ public class VFXcontroller : MonoBehaviour
     public VelocityCounter velocityCounter;
 
     //SerializeField[GameObject]
-    public GameObject vfx;
+    public ParticleSystem vfx;
     public Transform elbowR;
 
     private void Start()
     {
         velocityCounter.OnMove += Moved;
-        //velocityCounter.MovementDicertion += CalculateMovementDirection;
     }
 
     private void OnDestroy()
     {
         velocityCounter.OnMove -= Moved;
-        //velocityCounter.MovementDicertion -= CalculateMovementDirection;
     }
 
-    void Moved(float speed)
+    void Moved(Vector3 velocity)
     {
-        //calculate movement direction and based on that instatiate
+        // do something else. Do not instantiate.
 
         Instantiate(vfx, elbowR.position + new Vector3(0,1,0),Quaternion.identity);
         Debug.Log(velocityCounter.velocity.magnitude);
+
     }
 
-    //void CalculateMovementDirection()
-    //{
-    //}
 }
