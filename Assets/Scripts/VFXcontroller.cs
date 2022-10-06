@@ -7,13 +7,21 @@ public class VFXcontroller : MonoBehaviour
 {
     public VelocityCounter velocityCounter;
 
-    //SerializeField[GameObject]
     public ParticleSystem vfx;
+    private ParticleSystem.EmissionModule emissionModule;
     public Transform elbowR;
 
+    public float minRateOverTime;
+    public float emissionRateMultiplyer = 1;
+
+    private void Awake()
+    {
+        emissionModule = vfx.emission;
+        velocityCounter.OnMove += Moved;
+    }
     private void Start()
     {
-        velocityCounter.OnMove += Moved;
+        emissionModule.rateOverTime = minRateOverTime;
     }
 
     private void OnDestroy()
@@ -23,10 +31,10 @@ public class VFXcontroller : MonoBehaviour
 
     void Moved(Vector3 velocity)
     {
-        // do something else. Do not instantiate.
+        emissionModule.rateOverTime = Mathf.Max(minRateOverTime, velocity.magnitude * emissionRateMultiplyer);
 
-        Instantiate(vfx, elbowR.position + new Vector3(0,1,0),Quaternion.identity);
-        Debug.Log(velocityCounter.velocity.magnitude);
+        //Instantiate(vfx, elbowR.position + new Vector3(0,1,0),Quaternion.identity);
+        //Debug.Log(velocityCounter.velocity.magnitude);
 
     }
 
