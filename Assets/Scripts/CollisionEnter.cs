@@ -10,11 +10,22 @@ public class CollisionEnter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("collided with " + other.gameObject.name);
+        //Debug.Log("collided with " + other.gameObject.name);
 
         if (other.gameObject.tag == "Ground")
         {
-            Instantiate(stepVFX, spawnPoint);
+            Instantiate(stepVFX, spawnPoint.position, Quaternion.identity);
         }
+
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log("collided with " + collision.gameObject.name);
+
+    //    if (collision.gameObject.tag == "Ground")
+    //    {
+    //        Instantiate(stepVFX, spawnPoint.position, Quaternion.identity);
+    //    }
+    //}
 }

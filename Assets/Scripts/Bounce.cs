@@ -9,13 +9,13 @@ public class Bounce : MonoBehaviour
 
     private void Awake()
     {
-        rb.AddForce(Vector3.up * bounceMultiplyer);
+        rb = GetComponent<Rigidbody>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb.AddForce(Vector3.up * bounceMultiplyer,ForceMode.Impulse);
     }
 
     // Update is called once per frame
