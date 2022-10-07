@@ -9,7 +9,7 @@ public class VFXcontroller : MonoBehaviour
 
     public ParticleSystem vfx;
     private ParticleSystem.EmissionModule emissionModule;
-    public Transform elbowR;
+    public Transform pivotPoint;
 
     public float minRateOverTime;
     public float emissionRateMultiplyer = 1;
