@@ -5,8 +5,10 @@ using System;
 
 public class CollisionEnter : MonoBehaviour
 {
-    public GameObject stepVFX;
+
     public Transform spawnPoint;
+    public ParticleSystem ps;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,7 +16,8 @@ public class CollisionEnter : MonoBehaviour
 
         if (other.gameObject.tag == "Ground")
         {
-            Instantiate(stepVFX, spawnPoint.position, Quaternion.identity);
+            ps.Play();
+            //Instantiate(stepVFX, spawnPoint.position, Quaternion.identity);
         }
 
     }
