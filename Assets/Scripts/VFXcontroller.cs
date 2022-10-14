@@ -7,7 +7,10 @@ public class VFXcontroller : MonoBehaviour
 {
     public VelocityCounter velocityCounter;
 
-    public ParticleSystem vfx;
+    //public List<ParticleSystem> vfxList = new List<ParticleSystem>();
+    public ParticleSystem vfxDrops;
+    public ParticleSystem vfxTrails;
+
     private ParticleSystem.EmissionModule emissionModule;
     public Transform pivotPoint;
 
@@ -16,7 +19,8 @@ public class VFXcontroller : MonoBehaviour
 
     private void Awake()
     {
-        emissionModule = vfx.emission;
+        
+        emissionModule = vfxDrops.emission;
         velocityCounter.OnMove += Moved;
     }
     private void Start()
