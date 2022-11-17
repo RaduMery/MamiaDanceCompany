@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7099576892960002448
+--- !u!114 &-63451437368906821
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SineDissolve
+  m_Name: WaveDissolve
   m_Shader: {fileID: -6465566751694194690, guid: 2f7848256b4d97d42bc2b88974a4bb73, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
@@ -67,7 +67,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
-    - _CellDensity: 1.01
+    - _CellDensity: 7.15
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 0
     - _CullModeForward: 0
@@ -111,8 +111,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.20379196, g: 0.20035598, b: 0.26415092, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
-    - _EdgeColor: {r: 7659.9263, g: 0, b: 32768.02, a: 0.8705882}
+    - _EdgeColor: {r: 0, g: 20537.57, b: 32768.02, a: 0.8705882}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
