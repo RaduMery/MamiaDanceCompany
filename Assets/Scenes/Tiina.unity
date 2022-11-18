@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -308,9 +308,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 30
-  field of view: 60
-  orthographic: 1
-  orthographic size: 1.7
+  field of view: 56.8
+  orthographic: 0
+  orthographic size: 2.35
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearColorMode: 0
+  clearColorMode: 2
   backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
   clearDepth: 1
   volumeLayerMask:
@@ -696,17 +696,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 430355072}
     - target: {fileID: 1336846174411591609, guid: 43d7916eb03b0ca43be8d5283e922969, type: 3}
-      propertyPath: minRateOverTime
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1336846174411591609, guid: 43d7916eb03b0ca43be8d5283e922969, type: 3}
       propertyPath: velocityCounter
       value: 
       objectReference: {fileID: 430355073}
-    - target: {fileID: 1336846174411591609, guid: 43d7916eb03b0ca43be8d5283e922969, type: 3}
-      propertyPath: emissionRateMultiplyer
-      value: 6000
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43d7916eb03b0ca43be8d5283e922969, type: 3}
 --- !u!1 &1635067185
@@ -862,14 +854,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2593206551430943954, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: db4d03d777b879d449e16dca3483df14, type: 2}
-    - target: {fileID: 2770673468288712504, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b8a19b86c39f38c4fa41fe0e723fd8fb, type: 2}
     - target: {fileID: 8111902131294790978, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -914,17 +898,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8681566708156962974, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: db4d03d777b879d449e16dca3483df14, type: 2}
     - target: {fileID: 8924046140542763000, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}
       propertyPath: m_Name
       value: Jennifer_ReMap1
       objectReference: {fileID: 0}
-    - target: {fileID: 9196027649586542738, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: db4d03d777b879d449e16dca3483df14, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 074b04a53a2ec8748afac3637b9d643f, type: 3}

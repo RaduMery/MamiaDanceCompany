@@ -112,6 +112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocityCounter: {fileID: 0}
   vfx: {fileID: 0}
-  elbowR: {fileID: 0}
-  minRateOverTime: 1
-  emissionRateMultiplyer: 100
+  pivotPoint: {fileID: 0}
+  minRateOverTime: 3
+  emissionRateMultiplyer: 6000
