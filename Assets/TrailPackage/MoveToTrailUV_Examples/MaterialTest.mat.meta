@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-guid: e2cf68ff4b1ffda45a77f7307dd789b9
-labels:
-- ObiCloth
-- ObiSoftbody
+guid: 3df538d34e14cda4e8f0f5b99200ce82
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: -1
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
