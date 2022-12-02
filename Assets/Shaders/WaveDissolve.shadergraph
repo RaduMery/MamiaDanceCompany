@@ -70,9 +70,6 @@
             "m_Id": "6458e36af22f416aaf013f484a74b8d1"
         },
         {
-            "m_Id": "e0133356c3e04450a300d2f06eee8bb9"
-        },
-        {
             "m_Id": "f9932afae8a94364bd2139b37862f9ee"
         },
         {
@@ -472,31 +469,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "05019b0db0cd40f2ae5b13555415b22f",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "06619b03da184aba8b9a2d106b2edc9e",
     "m_Id": 0,
     "m_DisplayName": "BaseColor",
@@ -525,7 +497,7 @@
     "m_ObjectId": "0675b61746db40b29e99bfe5906bccbf",
     "m_Title": "Edge emission Color",
     "m_Position": {
-        "x": -1685.9998779296875,
+        "x": -1686.0,
         "y": 436.9999694824219
     }
 }
@@ -2446,49 +2418,6 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ColorNode",
-    "m_ObjectId": "e0133356c3e04450a300d2f06eee8bb9",
-    "m_Group": {
-        "m_Id": "0675b61746db40b29e99bfe5906bccbf"
-    },
-    "m_Name": "Color",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -1660.9998779296875,
-            "y": 798.0,
-            "width": 208.0,
-            "height": 127.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "05019b0db0cd40f2ae5b13555415b22f"
-        }
-    ],
-    "synonyms": [
-        "rgba"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Color": {
-        "color": {
-            "r": 0.27737918496131899,
-            "g": 0.0,
-            "b": 0.6675391793251038,
-            "a": 0.0
-        },
-        "mode": 1
-    }
 }
 
 {
