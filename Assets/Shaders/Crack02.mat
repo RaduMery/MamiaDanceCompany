@@ -49,7 +49,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
-    - _CellDensity: 32.36
+    - _CellDensity: 19.1
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -58,7 +58,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
-    - _EdgeWidht: 38.6
+    - _EdgeWidht: 35.7
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _OpaqueCullMode: 2

@@ -31,7 +31,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 3a1b5eda74f5da64b87e0f1f080884a2, type: 3}
+        m_Texture: {fileID: 2800000, guid: f33231afdd06a804c9d5f02a483f1445, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -98,7 +98,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndColor: {r: 0.063, g: 0.063, b: 0.063, a: 0}
     - _MainTexSpeed: {r: -0.1, g: 0, b: 0, a: 0}
-    - _StartColor: {r: 0.19, g: 0.19, b: 0.19, a: 1}
+    - _StartColor: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &94786266679106183
 MonoBehaviour:
