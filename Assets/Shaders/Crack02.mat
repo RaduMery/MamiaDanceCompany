@@ -90,7 +90,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.002291832, g: 0, b: 0.12264147, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EdgeColor: {r: 407094.22, g: 0, b: 785404, a: 0}
+    - _EdgeColor: {r: 12721.694, g: 0, b: 24543.875, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MovementSpeed: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
