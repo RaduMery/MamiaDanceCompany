@@ -76,6 +76,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EdgeWidht: 0.01
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _OpaqueCullMode: 2
@@ -111,8 +112,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.20379196, g: 0.20035598, b: 0.26415092, a: 0}
+    - _BaseColor: {r: 0.034598604, g: 0.03061587, b: 0.09433961, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
-    - _EdgeColor: {r: 0, g: 20537.57, b: 32768.02, a: 0.8705882}
+    - _EdgeColor: {r: 0, g: 3855.0564, b: 6135.965, a: 0.8705882}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
