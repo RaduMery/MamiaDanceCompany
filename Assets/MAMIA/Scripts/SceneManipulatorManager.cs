@@ -14,7 +14,7 @@ public class SceneManipulatorManager : MonoBehaviour
     // rotation X
     
     public GameObject postProsessing;
-    // what parameters i want to manually manipulate?
+    // what parameters i want to manually manipulate
     // can i substitute the "GameObject" with someting more specific?
 
     [Header("Planes")]
