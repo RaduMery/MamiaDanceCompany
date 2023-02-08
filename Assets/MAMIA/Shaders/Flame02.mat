@@ -75,8 +75,8 @@ Material:
     - _DepthOffsetEnable: 0
     - _DisslovePower: 1.65
     - _DissolveCellDencity: 9.43
-    - _DistortionAmount: 0.36
-    - _DistortionScale: 1
+    - _DistortionAmount: -0.27
+    - _DistortionScale: 0.85
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
@@ -114,5 +114,5 @@ Material:
     - _DistortionSpeed: {r: 0, g: -0.3, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 296.28525, g: 38.780792, b: 0, a: 0}
+    - _MainColor: {r: 74.07131, g: 9.695198, b: 0, a: 0}
   m_BuildTextureStacks: []

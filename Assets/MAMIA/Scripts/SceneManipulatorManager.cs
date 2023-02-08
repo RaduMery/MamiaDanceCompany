@@ -6,12 +6,14 @@ using UnityEngine.Rendering.HighDefinition;
 
 public class SceneManipulatorManager : MonoBehaviour
 {
+
     [Header("Projector")]
     public GameObject projector;
     // placement adjustments for projector
     // ortographick or perspective bool
     // position X, Y, Z
     // rotation X
+    // environment -> background color
     
     public GameObject postProsessing;
     // what parameters i want to manually manipulate

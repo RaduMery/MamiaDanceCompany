@@ -57,9 +57,9 @@ Material:
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
-    - _DisslovePower: -3.15
-    - _DissolveCellDencity: 7.29
-    - _DistortionAmount: 0.05
+    - _DisslovePower: -2.65
+    - _DissolveCellDencity: 8.97
+    - _DistortionAmount: -0.09
     - _DistortionScale: 7.44
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
