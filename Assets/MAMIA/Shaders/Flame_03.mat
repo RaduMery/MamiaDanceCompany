@@ -59,8 +59,8 @@ Material:
     - _DepthOffsetEnable: 0
     - _DisslovePower: -2.65
     - _DissolveCellDencity: 8.97
-    - _DistortionAmount: -0.09
-    - _DistortionScale: 7.44
+    - _DistortionAmount: 3.53
+    - _DistortionScale: 10.21
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2

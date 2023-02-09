@@ -22,8 +22,16 @@ public class SceneManipulatorManager : MonoBehaviour
     [Header("Planes")]
     public GameObject frontPlane;
     // color, shader, opacity, mask
+    public GameObject animationPlane;
+    // ON / OFF
+    // color
     public GameObject backPlane;
     //color, sheder, PNGvideoClip,
+
+    [Header("Objects")]
+    //animation on and off
+    // ON / OFF
+    // what value adjustments to object?
 
     [Header("Shaders")]
     public GameObject something;
@@ -33,6 +41,13 @@ public class SceneManipulatorManager : MonoBehaviour
     [Header("MoCapClips")]
     public GameObject videoClips;
     //List of clips or clip_01, clip_02?
+
+    [Header("Sounds")]
+    public GameObject sound;
+    // clips
+    // volume
+    // bind voice to effects
+    // bind music to effects
 
     void Start()
     {
